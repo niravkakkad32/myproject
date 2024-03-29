@@ -1724,7 +1724,7 @@ import pandas as pd
 
 def fetch_data(request):
     # Connect to the MySQL database
-    conn = pymysql.connect(host='localhost', user='root', password='mital@1234', database='sos')
+    conn = pymysql.connect(host=' db2.crqssyqccgp1.eu-north-1.rds.amazonaws.com', user='nrvkakkad', password='Kishan#32', database='db2')
 
     # Read data from a table into a DataFrame
     df = pd.read_sql_query("SELECT * FROM blog_policyissue", conn)
